@@ -13,7 +13,7 @@ def connect_discord():
 # This function is used to update the presence
 def update_presence_powerpoint():
     RPC = connect_discord()
-    RPC.update(state="Editing a presentation", large_image="PowerPoint", large_text="Microsoft PowerPoint")
+    RPC.update(state="Editing a presentation", large_image="powerpoint", large_text="Microsoft PowerPoint")
     print("Presence updated")
     connect_discord()
 
