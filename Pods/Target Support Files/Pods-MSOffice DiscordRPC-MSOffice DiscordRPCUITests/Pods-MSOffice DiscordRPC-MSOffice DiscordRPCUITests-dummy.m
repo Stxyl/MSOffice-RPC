@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_MSOffice_DiscordRPC_MSOffice_DiscordRPCUITests : NSObject
-@end
-@implementation PodsDummy_Pods_MSOffice_DiscordRPC_MSOffice_DiscordRPCUITests
-@end

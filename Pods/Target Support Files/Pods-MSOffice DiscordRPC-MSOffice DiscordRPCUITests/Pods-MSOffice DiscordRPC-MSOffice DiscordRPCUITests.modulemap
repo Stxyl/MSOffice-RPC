@@ -1,6 +1,0 @@
-framework module Pods_MSOffice_DiscordRPC_MSOffice_DiscordRPCUITests {
-  umbrella header "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
