@@ -1,0 +1,1214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E01AB5B94BCE2EE8D8005B946A9C90 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		18B70A17826B9AE6263899E00D4A38D2 /* JoinRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DC06E3A1616B6B56933534A01475C3 /* JoinRequest.swift */; };
+		22B713EFAD5227DBF08A516DC09A1850 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224D6D2FBD5677670855B4F77DB5BAC /* Register.swift */; };
+		3E59E3E4BC7A2FE584D3DEDC0DA6C7A1 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA7B209B6F852C6BA730C6BFCCD06A2 /* SocketProtocols.swift */; };
+		41B1084493830D7203EEA1AE540812F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		49C789B323C461D74C3499A6EE2FC78E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		4C4E54893808594340738E8D67F8AD4C /* RichPresence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01444CCB87FC79170B83011A5CA22CB0 /* RichPresence.swift */; };
+		4FA64E8FEA9D2A1886B0B3B67BBDCE7E /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D58BC6250351B1B965650A986B72EB /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-dummy.m */; };
+		57FB76A3BAAFB4660460E563481E7DC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		5F08B319E92D9EAD6CF3783E436953FD /* SwordRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2B9B60E874CF5B58B680805F8FD725 /* SwordRPC.swift */; };
+		71368D924A41E66DF5B93BD7864ADAF3 /* BlueSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 271BB970E72DBD5F70CB9A29D18CDAB6 /* BlueSocket-dummy.m */; };
+		79D8DE2CAE074A76DDE784746A1CA61A /* Pods-MSOffice DiscordRPCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 034721BF590F0D1BC09107E57E1D5887 /* Pods-MSOffice DiscordRPCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		869050C5F39A750179295C73AEB2B15E /* SwordRPC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DBD92E1FA6F05C31C6FBD2313A4856 /* SwordRPC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8937C8EB191ED44B399ED4ACAEDAFB3A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51114DAB56940FDC31A27A069C4FA496 /* Utils.swift */; };
+		89EF48E42C47A9B8B4AED6A08DC4B216 /* Pods-MSOffice DiscordRPCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D154E28F32B573FE97C22CFC35AD13E /* Pods-MSOffice DiscordRPCTests-dummy.m */; };
+		9B4A15E7EF6F498B81AB806AE8C98EEF /* SwordRPC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E424A5B1558AD17E1AF98C32B2CA3172 /* SwordRPC-dummy.m */; };
+		9BFE4C82083725B6FCB8907A47E6C484 /* Pods-MSOffice DiscordRPC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2015F3838792478B6A5F6B09D84279BF /* Pods-MSOffice DiscordRPC-dummy.m */; };
+		A0E298AD167D4844EAF33B43994B171E /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2DA18447B2477932B1EBEFC78CA41 /* Enums.swift */; };
+		A0F433F97EAC11A167BC0D016C892443 /* Pods-MSOffice DiscordRPC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB58420D299F0ED20A6859E42C18778 /* Pods-MSOffice DiscordRPC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B176E01D322F62C6E2BFFE56C6D4DFA8 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D05C6F2A464977B2F4CA2830DF71C7 /* Delegate.swift */; };
+		B226664960C8E8D4E4E22718C9008192 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		B705E1AAB610F83357FD63F0F10FF247 /* RPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A195475D7B97C1E34B0C013FB7267375 /* RPC.swift */; };
+		C49E19ED27C9CC94ABA3141CC4EF6E86 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A84E37708100EEBFF83478563BC475 /* Events.swift */; };
+		D1409F065AA309817179042BFAFFBFF8 /* BlueSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDE1C86DCCB72A287C2B77A7A55027F /* BlueSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E531C289D4B491BCA8F208C8FBC99A23 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC3013270E45AC59C7368EE7CB0424 /* Socket.swift */; };
+		EC736684643191B22FFC6D362550F702 /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4CCE0086FA3A7AC05BAA16AC4BFC7 /* SocketUtils.swift */; };
+		F6269F74DB56D2AEC0EB7DA8883404E8 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 307CE54776D1F9A6D67EF53D6A0D9127 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AA56D57CB3D5D0C27DA7D3F6D5D0AD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A37ECDD7156AEE40568C45AA3E85A50;
+			remoteInfo = "Pods-MSOffice DiscordRPC";
+		};
+		1C5C21AC1C7AFDB91DD523997AF94F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9717BE7FCECEF299173A5D71C18B19F5;
+			remoteInfo = BlueSocket;
+		};
+		5259D49CE53BCB48315DCA42832DD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9717BE7FCECEF299173A5D71C18B19F5;
+			remoteInfo = BlueSocket;
+		};
+		74EB513EDED24EBF6BA5DC600A66D492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299BBFA724A3C406EB3981B8F64AE9E0;
+			remoteInfo = SwordRPC;
+		};
+		F83A35495237AE007739A37D05749E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9717BE7FCECEF299173A5D71C18B19F5;
+			remoteInfo = BlueSocket;
+		};
+		F94F6AC368A52AA7112DF71B48A30687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299BBFA724A3C406EB3981B8F64AE9E0;
+			remoteInfo = SwordRPC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01444CCB87FC79170B83011A5CA22CB0 /* RichPresence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RichPresence.swift; path = Sources/SwordRPC/Types/RichPresence.swift; sourceTree = "<group>"; };
+		034721BF590F0D1BC09107E57E1D5887 /* Pods-MSOffice DiscordRPCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSOffice DiscordRPCTests-umbrella.h"; sourceTree = "<group>"; };
+		19A84E37708100EEBFF83478563BC475 /* Events.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Events.swift; path = Sources/SwordRPC/Events.swift; sourceTree = "<group>"; };
+		1F5A1C7B86221E99946FC009603DDFBE /* SwordRPC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwordRPC-prefix.pch"; sourceTree = "<group>"; };
+		2015F3838792478B6A5F6B09D84279BF /* Pods-MSOffice DiscordRPC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSOffice DiscordRPC-dummy.m"; sourceTree = "<group>"; };
+		271BB970E72DBD5F70CB9A29D18CDAB6 /* BlueSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlueSocket-dummy.m"; sourceTree = "<group>"; };
+		290827599BBE4415F2E9573426F050D0 /* Pods-MSOffice DiscordRPCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSOffice DiscordRPCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EAA4A7F572E0FFFDA0F24140040D388 /* BlueSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlueSocket; path = Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC381121C2D955651E3988B5DDF5A8B /* Pods-MSOffice DiscordRPCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSOffice DiscordRPCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EDE1C86DCCB72A287C2B77A7A55027F /* BlueSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-umbrella.h"; sourceTree = "<group>"; };
+		307CE54776D1F9A6D67EF53D6A0D9127 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-umbrella.h"; sourceTree = "<group>"; };
+		3232462B38B6BAF6AB3DD8A3D4ECABDA /* Pods-MSOffice DiscordRPC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSOffice DiscordRPC-acknowledgements.plist"; sourceTree = "<group>"; };
+		3736E68F347FFE6CBE133DC68F9D55C3 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-frameworks.sh"; sourceTree = "<group>"; };
+		37C079109512F34ADCB62C136CF26179 /* Pods-MSOffice DiscordRPC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSOffice DiscordRPC.modulemap"; sourceTree = "<group>"; };
+		3E2B9B60E874CF5B58B680805F8FD725 /* SwordRPC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwordRPC.swift; path = Sources/SwordRPC/SwordRPC.swift; sourceTree = "<group>"; };
+		41AC3013270E45AC59C7368EE7CB0424 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket/Socket.swift; sourceTree = "<group>"; };
+		471E5999FA948329048AE9416DB90734 /* Pods-MSOffice DiscordRPCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSOffice DiscordRPCTests.modulemap"; sourceTree = "<group>"; };
+		4854484385F2C0F33DD7730A255CEB03 /* SwordRPC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwordRPC.release.xcconfig; sourceTree = "<group>"; };
+		49D05C6F2A464977B2F4CA2830DF71C7 /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/SwordRPC/Delegate.swift; sourceTree = "<group>"; };
+		4C44575026213DC2B446D851E8EB48FB /* Pods-MSOffice DiscordRPC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSOffice DiscordRPC-frameworks.sh"; sourceTree = "<group>"; };
+		4C576481F5530543E1765388E7391101 /* Pods-MSOffice DiscordRPCTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSOffice DiscordRPCTests-Info.plist"; sourceTree = "<group>"; };
+		504568D925F631C7C668EBF766CC1C70 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		51114DAB56940FDC31A27A069C4FA496 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/SwordRPC/Utils.swift; sourceTree = "<group>"; };
+		52324F14A174F081A5E83ACD36B31819 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-Info.plist"; sourceTree = "<group>"; };
+		577B6F6FB38607E4A8A74358128CFB43 /* SwordRPC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwordRPC; path = SwordRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FC28CC5FE99255D4E1E61AACC3E619 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CEAF8250450D0093461EF4BEABDBADD /* Pods-MSOffice DiscordRPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSOffice DiscordRPC.debug.xcconfig"; sourceTree = "<group>"; };
+		5E324615D516EA743EDD18BAACF9E35E /* BlueSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.debug.xcconfig; sourceTree = "<group>"; };
+		636FFAC934F9E051D53C6B1D4C3BDA32 /* Pods-MSOffice DiscordRPC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSOffice DiscordRPC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66DBD92E1FA6F05C31C6FBD2313A4856 /* SwordRPC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwordRPC-umbrella.h"; sourceTree = "<group>"; };
+		66E9E9F6DB533E061FA10D23DC202B85 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69D58BC6250351B1B965650A986B72EB /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-dummy.m"; sourceTree = "<group>"; };
+		6EE457BE96233EF8295A42CBD17B30FF /* BlueSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.release.xcconfig; sourceTree = "<group>"; };
+		75CA6C8300BB8A5C600764677DBEDCFC /* Pods-MSOffice DiscordRPCTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MSOffice DiscordRPCTests"; path = Pods_MSOffice_DiscordRPCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A2DA18447B2477932B1EBEFC78CA41 /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = Sources/SwordRPC/Types/Enums.swift; sourceTree = "<group>"; };
+		7BA7B209B6F852C6BA730C6BFCCD06A2 /* SocketProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketProtocols.swift; path = Sources/Socket/SocketProtocols.swift; sourceTree = "<group>"; };
+		84FDAE9B23CD517DC591ACCD0154E8BB /* BlueSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlueSocket.modulemap; sourceTree = "<group>"; };
+		88142C096630D14DE8D52EC0FDBEA8F5 /* Pods-MSOffice DiscordRPC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MSOffice DiscordRPC"; path = Pods_MSOffice_DiscordRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B969296113E8FEB07B114B368CE864F /* SwordRPC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwordRPC.modulemap; sourceTree = "<group>"; };
+		8D154E28F32B573FE97C22CFC35AD13E /* Pods-MSOffice DiscordRPCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSOffice DiscordRPCTests-dummy.m"; sourceTree = "<group>"; };
+		8F670649E879614E88D4EEA606F87132 /* SwordRPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwordRPC.debug.xcconfig; sourceTree = "<group>"; };
+		9CB58420D299F0ED20A6859E42C18778 /* Pods-MSOffice DiscordRPC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSOffice DiscordRPC-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A195475D7B97C1E34B0C013FB7267375 /* RPC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPC.swift; path = Sources/SwordRPC/RPC.swift; sourceTree = "<group>"; };
+		A7B4CCE0086FA3A7AC05BAA16AC4BFC7 /* SocketUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketUtils.swift; path = Sources/Socket/SocketUtils.swift; sourceTree = "<group>"; };
+		BA910FE640A94A9D9C715B95528B0299 /* BlueSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-prefix.pch"; sourceTree = "<group>"; };
+		BAC6EF4442676AC9958E2EC86B972FB5 /* Pods-MSOffice DiscordRPCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSOffice DiscordRPCTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE55517BE50DF457CEE52CE681A9F158 /* BlueSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BlueSocket-Info.plist"; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C15094FB56A4AB770A9755DE24CD0F18 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C46CDCA0446DD5E13A218F29EEF17AE9 /* Pods-MSOffice DiscordRPC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSOffice DiscordRPC-Info.plist"; sourceTree = "<group>"; };
+		C528CA53120E69E0FECF22F89DC3425A /* Pods-MSOffice DiscordRPC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSOffice DiscordRPC.release.xcconfig"; sourceTree = "<group>"; };
+		D3DE222F75F9FA9DD2B7B857C95E52F9 /* SwordRPC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwordRPC-Info.plist"; sourceTree = "<group>"; };
+		D40DB12C7D32695F9903C1BAF3F65CA9 /* Pods-MSOffice DiscordRPCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSOffice DiscordRPCTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E224D6D2FBD5677670855B4F77DB5BAC /* Register.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Register.swift; path = Sources/SwordRPC/Register.swift; sourceTree = "<group>"; };
+		E424A5B1558AD17E1AF98C32B2CA3172 /* SwordRPC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwordRPC-dummy.m"; sourceTree = "<group>"; };
+		E6E5AC1A8AE11A1224178EE5E0670F28 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests"; path = Pods_MSOffice_DiscordRPC_MSOffice_DiscordRPCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED10A17C7A1BDAD3BD92B13FDFCED153 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.modulemap"; sourceTree = "<group>"; };
+		F7DC06E3A1616B6B56933534A01475C3 /* JoinRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JoinRequest.swift; path = Sources/SwordRPC/Types/JoinRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		126DA14A0ABBA9EDC02C574514E6EDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FB76A3BAAFB4660460E563481E7DC4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626D90D0B79CA0D069978E70DAA4FD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B1084493830D7203EEA1AE540812F6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C0C186D6DE21E2123C6FE3D3CD5CE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C789B323C461D74C3499A6EE2FC78E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CE72BDFE57FDBB9E8835EE31F23CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B226664960C8E8D4E4E22718C9008192 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5C43F26CEF5B54F86C83DEA2307F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E01AB5B94BCE2EE8D8005B946A9C90 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066B70E5A983BABF98814B196274A384 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8F62607CE3BFC5EEC9EFD404681BD9 /* Pods-MSOffice DiscordRPC */,
+				D5453A097595FC241A9FEB39AB39271E /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests */,
+				D8C7D082FF48F2792FCAF83B008E9FCB /* Pods-MSOffice DiscordRPCTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0C873526EF5162A089731CA8FDB4838C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EAA4A7F572E0FFFDA0F24140040D388 /* BlueSocket */,
+				88142C096630D14DE8D52EC0FDBEA8F5 /* Pods-MSOffice DiscordRPC */,
+				E6E5AC1A8AE11A1224178EE5E0670F28 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests */,
+				75CA6C8300BB8A5C600764677DBEDCFC /* Pods-MSOffice DiscordRPCTests */,
+				577B6F6FB38607E4A8A74358128CFB43 /* SwordRPC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1569B77F1FF606BFB2D92C77D7113C7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B969296113E8FEB07B114B368CE864F /* SwordRPC.modulemap */,
+				E424A5B1558AD17E1AF98C32B2CA3172 /* SwordRPC-dummy.m */,
+				D3DE222F75F9FA9DD2B7B857C95E52F9 /* SwordRPC-Info.plist */,
+				1F5A1C7B86221E99946FC009603DDFBE /* SwordRPC-prefix.pch */,
+				66DBD92E1FA6F05C31C6FBD2313A4856 /* SwordRPC-umbrella.h */,
+				8F670649E879614E88D4EEA606F87132 /* SwordRPC.debug.xcconfig */,
+				4854484385F2C0F33DD7730A255CEB03 /* SwordRPC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwordRPC";
+			sourceTree = "<group>";
+		};
+		4E8F62607CE3BFC5EEC9EFD404681BD9 /* Pods-MSOffice DiscordRPC */ = {
+			isa = PBXGroup;
+			children = (
+				37C079109512F34ADCB62C136CF26179 /* Pods-MSOffice DiscordRPC.modulemap */,
+				636FFAC934F9E051D53C6B1D4C3BDA32 /* Pods-MSOffice DiscordRPC-acknowledgements.markdown */,
+				3232462B38B6BAF6AB3DD8A3D4ECABDA /* Pods-MSOffice DiscordRPC-acknowledgements.plist */,
+				2015F3838792478B6A5F6B09D84279BF /* Pods-MSOffice DiscordRPC-dummy.m */,
+				4C44575026213DC2B446D851E8EB48FB /* Pods-MSOffice DiscordRPC-frameworks.sh */,
+				C46CDCA0446DD5E13A218F29EEF17AE9 /* Pods-MSOffice DiscordRPC-Info.plist */,
+				9CB58420D299F0ED20A6859E42C18778 /* Pods-MSOffice DiscordRPC-umbrella.h */,
+				5CEAF8250450D0093461EF4BEABDBADD /* Pods-MSOffice DiscordRPC.debug.xcconfig */,
+				C528CA53120E69E0FECF22F89DC3425A /* Pods-MSOffice DiscordRPC.release.xcconfig */,
+			);
+			name = "Pods-MSOffice DiscordRPC";
+			path = "Target Support Files/Pods-MSOffice DiscordRPC";
+			sourceTree = "<group>";
+		};
+		58C42BE800D7EF0584165D0D6D7286DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5D2D05C81749872588FF4C2544D1B4D /* BlueSocket */,
+				F396BAA17DC942C783819FF685E820F5 /* SwordRPC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				58C42BE800D7EF0584165D0D6D7286DE /* Pods */,
+				0C873526EF5162A089731CA8FDB4838C /* Products */,
+				066B70E5A983BABF98814B196274A384 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5453A097595FC241A9FEB39AB39271E /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED10A17C7A1BDAD3BD92B13FDFCED153 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.modulemap */,
+				59FC28CC5FE99255D4E1E61AACC3E619 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-acknowledgements.markdown */,
+				504568D925F631C7C668EBF766CC1C70 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-acknowledgements.plist */,
+				69D58BC6250351B1B965650A986B72EB /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-dummy.m */,
+				3736E68F347FFE6CBE133DC68F9D55C3 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-frameworks.sh */,
+				52324F14A174F081A5E83ACD36B31819 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-Info.plist */,
+				307CE54776D1F9A6D67EF53D6A0D9127 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-umbrella.h */,
+				C15094FB56A4AB770A9755DE24CD0F18 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.debug.xcconfig */,
+				66E9E9F6DB533E061FA10D23DC202B85 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.release.xcconfig */,
+			);
+			name = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests";
+			path = "Target Support Files/Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests";
+			sourceTree = "<group>";
+		};
+		D8C7D082FF48F2792FCAF83B008E9FCB /* Pods-MSOffice DiscordRPCTests */ = {
+			isa = PBXGroup;
+			children = (
+				471E5999FA948329048AE9416DB90734 /* Pods-MSOffice DiscordRPCTests.modulemap */,
+				290827599BBE4415F2E9573426F050D0 /* Pods-MSOffice DiscordRPCTests-acknowledgements.markdown */,
+				D40DB12C7D32695F9903C1BAF3F65CA9 /* Pods-MSOffice DiscordRPCTests-acknowledgements.plist */,
+				8D154E28F32B573FE97C22CFC35AD13E /* Pods-MSOffice DiscordRPCTests-dummy.m */,
+				4C576481F5530543E1765388E7391101 /* Pods-MSOffice DiscordRPCTests-Info.plist */,
+				034721BF590F0D1BC09107E57E1D5887 /* Pods-MSOffice DiscordRPCTests-umbrella.h */,
+				2EC381121C2D955651E3988B5DDF5A8B /* Pods-MSOffice DiscordRPCTests.debug.xcconfig */,
+				BAC6EF4442676AC9958E2EC86B972FB5 /* Pods-MSOffice DiscordRPCTests.release.xcconfig */,
+			);
+			name = "Pods-MSOffice DiscordRPCTests";
+			path = "Target Support Files/Pods-MSOffice DiscordRPCTests";
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		E5D2D05C81749872588FF4C2544D1B4D /* BlueSocket */ = {
+			isa = PBXGroup;
+			children = (
+				41AC3013270E45AC59C7368EE7CB0424 /* Socket.swift */,
+				7BA7B209B6F852C6BA730C6BFCCD06A2 /* SocketProtocols.swift */,
+				A7B4CCE0086FA3A7AC05BAA16AC4BFC7 /* SocketUtils.swift */,
+				F105D8A492C5A8CC0FFE6EACE7B521F7 /* Support Files */,
+			);
+			name = BlueSocket;
+			path = BlueSocket;
+			sourceTree = "<group>";
+		};
+		F105D8A492C5A8CC0FFE6EACE7B521F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FDAE9B23CD517DC591ACCD0154E8BB /* BlueSocket.modulemap */,
+				271BB970E72DBD5F70CB9A29D18CDAB6 /* BlueSocket-dummy.m */,
+				BE55517BE50DF457CEE52CE681A9F158 /* BlueSocket-Info.plist */,
+				BA910FE640A94A9D9C715B95528B0299 /* BlueSocket-prefix.pch */,
+				2EDE1C86DCCB72A287C2B77A7A55027F /* BlueSocket-umbrella.h */,
+				5E324615D516EA743EDD18BAACF9E35E /* BlueSocket.debug.xcconfig */,
+				6EE457BE96233EF8295A42CBD17B30FF /* BlueSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlueSocket";
+			sourceTree = "<group>";
+		};
+		F396BAA17DC942C783819FF685E820F5 /* SwordRPC */ = {
+			isa = PBXGroup;
+			children = (
+				49D05C6F2A464977B2F4CA2830DF71C7 /* Delegate.swift */,
+				79A2DA18447B2477932B1EBEFC78CA41 /* Enums.swift */,
+				19A84E37708100EEBFF83478563BC475 /* Events.swift */,
+				F7DC06E3A1616B6B56933534A01475C3 /* JoinRequest.swift */,
+				E224D6D2FBD5677670855B4F77DB5BAC /* Register.swift */,
+				01444CCB87FC79170B83011A5CA22CB0 /* RichPresence.swift */,
+				A195475D7B97C1E34B0C013FB7267375 /* RPC.swift */,
+				3E2B9B60E874CF5B58B680805F8FD725 /* SwordRPC.swift */,
+				51114DAB56940FDC31A27A069C4FA496 /* Utils.swift */,
+				1569B77F1FF606BFB2D92C77D7113C7D /* Support Files */,
+			);
+			name = SwordRPC;
+			path = SwordRPC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		339AAC15CD5CA96BD95DC11FA3397881 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869050C5F39A750179295C73AEB2B15E /* SwordRPC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D79ED8D7424E3CE9873EF4EB7DF84E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F433F97EAC11A167BC0D016C892443 /* Pods-MSOffice DiscordRPC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632DBBC6F17F917542FC9A518A8BC2E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1409F065AA309817179042BFAFFBFF8 /* BlueSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C102D735EF60301C73AAC627D3CC21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D8DE2CAE074A76DDE784746A1CA61A /* Pods-MSOffice DiscordRPCTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899078BF48981A9D218365456B9AC10D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6269F74DB56D2AEC0EB7DA8883404E8 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		299BBFA724A3C406EB3981B8F64AE9E0 /* SwordRPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98326A105FA825EF6C44E55B38352F3 /* Build configuration list for PBXNativeTarget "SwordRPC" */;
+			buildPhases = (
+				339AAC15CD5CA96BD95DC11FA3397881 /* Headers */,
+				AEF0EECC03D27F262A50021F364B202E /* Sources */,
+				626D90D0B79CA0D069978E70DAA4FD80 /* Frameworks */,
+				B2260C4054750E8851EEFACFD211869E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E75E7A1D0A5FCD25BEAA9F14CDE3A577 /* PBXTargetDependency */,
+			);
+			name = SwordRPC;
+			productName = SwordRPC;
+			productReference = 577B6F6FB38607E4A8A74358128CFB43 /* SwordRPC */;
+			productType = "com.apple.product-type.framework";
+		};
+		387CF8225A771C10408362B0B6A39CA4 /* Pods-MSOffice DiscordRPCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A97430690E273A8D1E5DD1B99B484F /* Build configuration list for PBXNativeTarget "Pods-MSOffice DiscordRPCTests" */;
+			buildPhases = (
+				74C102D735EF60301C73AAC627D3CC21 /* Headers */,
+				BDF6C14EFA84CA7565723CB52CC405B0 /* Sources */,
+				DCB5C43F26CEF5B54F86C83DEA2307F7 /* Frameworks */,
+				89425AEC045FBAE7E9E28B26156E56E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A1D55CF700BFB1AB3D16AA5E425465 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSOffice DiscordRPCTests";
+			productName = Pods_MSOffice_DiscordRPCTests;
+			productReference = 75CA6C8300BB8A5C600764677DBEDCFC /* Pods-MSOffice DiscordRPCTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A37ECDD7156AEE40568C45AA3E85A50 /* Pods-MSOffice DiscordRPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE8B148661518366B2DFD2FC0AB90E2 /* Build configuration list for PBXNativeTarget "Pods-MSOffice DiscordRPC" */;
+			buildPhases = (
+				3D79ED8D7424E3CE9873EF4EB7DF84E2 /* Headers */,
+				4A10A48F5DD0E3A06851BBA2E21916F2 /* Sources */,
+				126DA14A0ABBA9EDC02C574514E6EDD9 /* Frameworks */,
+				2554326EFA86D46C77A7A78D731E9106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4577D85B7DAD159AD014024B4AB216 /* PBXTargetDependency */,
+				09056F51341BE2735FF0E2880119072F /* PBXTargetDependency */,
+			);
+			name = "Pods-MSOffice DiscordRPC";
+			productName = Pods_MSOffice_DiscordRPC;
+			productReference = 88142C096630D14DE8D52EC0FDBEA8F5 /* Pods-MSOffice DiscordRPC */;
+			productType = "com.apple.product-type.framework";
+		};
+		9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3AAF744EA1BD42DDBAD1A3FC75571A1 /* Build configuration list for PBXNativeTarget "BlueSocket" */;
+			buildPhases = (
+				632DBBC6F17F917542FC9A518A8BC2E9 /* Headers */,
+				8EACD919D707AA5DA85D2BD71D189045 /* Sources */,
+				A6CE72BDFE57FDBB9E8835EE31F23CA2 /* Frameworks */,
+				3E626B52215F6AC98AB3B21168650751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueSocket;
+			productName = Socket;
+			productReference = 2EAA4A7F572E0FFFDA0F24140040D388 /* BlueSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED8BCCCEF8603DA290456533A75FAEDB /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C7C16AFB0C7CF6CAE8AAEE0C923DF88 /* Build configuration list for PBXNativeTarget "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests" */;
+			buildPhases = (
+				899078BF48981A9D218365456B9AC10D /* Headers */,
+				9D452826A3C126F524A948B6F78BC166 /* Sources */,
+				9C0C186D6DE21E2123C6FE3D3CD5CE9C /* Frameworks */,
+				3EA3A0207936C63A4B3EBDDC67BAE34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2BF66D3F681B767EA61D32B88C545B /* PBXTargetDependency */,
+				E3E48B71B0A3831C33D7E4219CCD8860 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests";
+			productName = Pods_MSOffice_DiscordRPC_MSOffice_DiscordRPCUITests;
+			productReference = E6E5AC1A8AE11A1224178EE5E0670F28 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0C873526EF5162A089731CA8FDB4838C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */,
+				8A37ECDD7156AEE40568C45AA3E85A50 /* Pods-MSOffice DiscordRPC */,
+				ED8BCCCEF8603DA290456533A75FAEDB /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests */,
+				387CF8225A771C10408362B0B6A39CA4 /* Pods-MSOffice DiscordRPCTests */,
+				299BBFA724A3C406EB3981B8F64AE9E0 /* SwordRPC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2554326EFA86D46C77A7A78D731E9106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E626B52215F6AC98AB3B21168650751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA3A0207936C63A4B3EBDDC67BAE34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89425AEC045FBAE7E9E28B26156E56E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2260C4054750E8851EEFACFD211869E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A10A48F5DD0E3A06851BBA2E21916F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFE4C82083725B6FCB8907A47E6C484 /* Pods-MSOffice DiscordRPC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EACD919D707AA5DA85D2BD71D189045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71368D924A41E66DF5B93BD7864ADAF3 /* BlueSocket-dummy.m in Sources */,
+				E531C289D4B491BCA8F208C8FBC99A23 /* Socket.swift in Sources */,
+				3E59E3E4BC7A2FE584D3DEDC0DA6C7A1 /* SocketProtocols.swift in Sources */,
+				EC736684643191B22FFC6D362550F702 /* SocketUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D452826A3C126F524A948B6F78BC166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA64E8FEA9D2A1886B0B3B67BBDCE7E /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF0EECC03D27F262A50021F364B202E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B176E01D322F62C6E2BFFE56C6D4DFA8 /* Delegate.swift in Sources */,
+				A0E298AD167D4844EAF33B43994B171E /* Enums.swift in Sources */,
+				C49E19ED27C9CC94ABA3141CC4EF6E86 /* Events.swift in Sources */,
+				18B70A17826B9AE6263899E00D4A38D2 /* JoinRequest.swift in Sources */,
+				22B713EFAD5227DBF08A516DC09A1850 /* Register.swift in Sources */,
+				4C4E54893808594340738E8D67F8AD4C /* RichPresence.swift in Sources */,
+				B705E1AAB610F83357FD63F0F10FF247 /* RPC.swift in Sources */,
+				5F08B319E92D9EAD6CF3783E436953FD /* SwordRPC.swift in Sources */,
+				9B4A15E7EF6F498B81AB806AE8C98EEF /* SwordRPC-dummy.m in Sources */,
+				8937C8EB191ED44B399ED4ACAEDAFB3A /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6C14EFA84CA7565723CB52CC405B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EF48E42C47A9B8B4AED6A08DC4B216 /* Pods-MSOffice DiscordRPCTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09056F51341BE2735FF0E2880119072F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwordRPC;
+			target = 299BBFA724A3C406EB3981B8F64AE9E0 /* SwordRPC */;
+			targetProxy = 74EB513EDED24EBF6BA5DC600A66D492 /* PBXContainerItemProxy */;
+		};
+		14A1D55CF700BFB1AB3D16AA5E425465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSOffice DiscordRPC";
+			target = 8A37ECDD7156AEE40568C45AA3E85A50 /* Pods-MSOffice DiscordRPC */;
+			targetProxy = 0AA56D57CB3D5D0C27DA7D3F6D5D0AD8 /* PBXContainerItemProxy */;
+		};
+		2B4577D85B7DAD159AD014024B4AB216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSocket;
+			target = 9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */;
+			targetProxy = 1C5C21AC1C7AFDB91DD523997AF94F93 /* PBXContainerItemProxy */;
+		};
+		9F2BF66D3F681B767EA61D32B88C545B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSocket;
+			target = 9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */;
+			targetProxy = 5259D49CE53BCB48315DCA42832DD04B /* PBXContainerItemProxy */;
+		};
+		E3E48B71B0A3831C33D7E4219CCD8860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwordRPC;
+			target = 299BBFA724A3C406EB3981B8F64AE9E0 /* SwordRPC */;
+			targetProxy = F94F6AC368A52AA7112DF71B48A30687 /* PBXContainerItemProxy */;
+		};
+		E75E7A1D0A5FCD25BEAA9F14CDE3A577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSocket;
+			target = 9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */;
+			targetProxy = F83A35495237AE007739A37D05749E77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018A1ACDB3D9B513068BA4F932228541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC6EF4442676AC9958E2EC86B972FB5 /* Pods-MSOffice DiscordRPCTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSOffice DiscordRPCTests/Pods-MSOffice DiscordRPCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSOffice DiscordRPCTests/Pods-MSOffice DiscordRPCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		096C40580A804188D389E59301A234EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CEAF8250450D0093461EF4BEABDBADD /* Pods-MSOffice DiscordRPC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSOffice DiscordRPC/Pods-MSOffice DiscordRPC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSOffice DiscordRPC/Pods-MSOffice DiscordRPC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48423B530DA6A378802934DA691FD778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F670649E879614E88D4EEA606F87132 /* SwordRPC.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwordRPC/SwordRPC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwordRPC/SwordRPC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/SwordRPC/SwordRPC.modulemap";
+				PRODUCT_MODULE_NAME = SwordRPC;
+				PRODUCT_NAME = SwordRPC;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CDF467735B411F8C915198946F31AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4854484385F2C0F33DD7730A255CEB03 /* SwordRPC.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwordRPC/SwordRPC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwordRPC/SwordRPC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/SwordRPC/SwordRPC.modulemap";
+				PRODUCT_MODULE_NAME = SwordRPC;
+				PRODUCT_NAME = SwordRPC;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7224C50EA46854CC2D35C9CA1E211C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE457BE96233EF8295A42CBD17B30FF /* BlueSocket.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueSocket/BlueSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = Socket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76AB6BAD903B3470129CDD916A930EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15094FB56A4AB770A9755DE24CD0F18 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests/Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests/Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85E7F10100BCC3B4BC237AAB1F1B89C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E324615D516EA743EDD18BAACF9E35E /* BlueSocket.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueSocket/BlueSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = Socket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88D9AEA8472B08C0001076E10D896DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C528CA53120E69E0FECF22F89DC3425A /* Pods-MSOffice DiscordRPC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSOffice DiscordRPC/Pods-MSOffice DiscordRPC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSOffice DiscordRPC/Pods-MSOffice DiscordRPC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		930E226C21F64A571D1CB76E18AB1F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9534E9C6696D265D329AD292FA70A4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E9E9F6DB533E061FA10D23DC202B85 /* Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests/Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests/Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A47C8C8BD79BB24C98999A6C5B9576AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC381121C2D955651E3988B5DDF5A8B /* Pods-MSOffice DiscordRPCTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSOffice DiscordRPCTests/Pods-MSOffice DiscordRPCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSOffice DiscordRPCTests/Pods-MSOffice DiscordRPCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B71873917D0ED6E1C976C88704C05BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30A97430690E273A8D1E5DD1B99B484F /* Build configuration list for PBXNativeTarget "Pods-MSOffice DiscordRPCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47C8C8BD79BB24C98999A6C5B9576AF /* Debug */,
+				018A1ACDB3D9B513068BA4F932228541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71873917D0ED6E1C976C88704C05BF3 /* Debug */,
+				930E226C21F64A571D1CB76E18AB1F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C7C16AFB0C7CF6CAE8AAEE0C923DF88 /* Build configuration list for PBXNativeTarget "Pods-MSOffice DiscordRPC-MSOffice DiscordRPCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AB6BAD903B3470129CDD916A930EFE /* Debug */,
+				9534E9C6696D265D329AD292FA70A4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE8B148661518366B2DFD2FC0AB90E2 /* Build configuration list for PBXNativeTarget "Pods-MSOffice DiscordRPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096C40580A804188D389E59301A234EE /* Debug */,
+				88D9AEA8472B08C0001076E10D896DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3AAF744EA1BD42DDBAD1A3FC75571A1 /* Build configuration list for PBXNativeTarget "BlueSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E7F10100BCC3B4BC237AAB1F1B89C5 /* Debug */,
+				7224C50EA46854CC2D35C9CA1E211C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98326A105FA825EF6C44E55B38352F3 /* Build configuration list for PBXNativeTarget "SwordRPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48423B530DA6A378802934DA691FD778 /* Debug */,
+				5CDF467735B411F8C915198946F31AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

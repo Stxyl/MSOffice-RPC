@@ -1,0 +1,6 @@
+framework module Pods_MSOffice_DiscordRPC {
+  umbrella header "Pods-MSOffice DiscordRPC-umbrella.h"
+
+  export *
+  module * { export * }
+}
