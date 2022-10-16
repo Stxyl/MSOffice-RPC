@@ -28,22 +28,8 @@ def appget_teams():
         return False
 
 
-appget_teams()
-
-
 def appget_pid_teams():
     pid = os.popen("pgrep 'Teams'").read()
     return pid
 
 
-# This function finds the process ID of the application and tells you if its running or not with PID Number
-if appget_pid_teams() != "":
-    print("Teams is running", appget_pid_teams())
-    update_presence_teams()
-else:
-    print("Teams is not running")
-
-while True:
-    appget_pid_teams()
-
-    time.sleep(1)  # Can only update rich presence every 1 second

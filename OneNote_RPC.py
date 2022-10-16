@@ -28,24 +28,9 @@ def appget_onenote():
         return False
 
 
-# Tells if the application is found or not
-appget_onenote()
-
-
 # This function finds the process ID of the application
 def appget_pid_onenote():
     pid = os.popen("pgrep 'Microsoft OneNote'").read()
     return pid
 
 
-# This function finds the process ID of the application and tells you if its running or not with PID Number
-if appget_pid_onenote() != "":
-    print("OneNote is running", appget_pid_onenote())
-    update_presence_onenote()
-else:
-    print("OneNote is not running")
-
-while True:
-    appget_pid_onenote()
-
-    time.sleep(1)  # Can only update rich presence every 1 second

@@ -28,24 +28,9 @@ def appget_powerpoint():
         return False
 
 
-# Tells if the application is found or not
-appget_powerpoint()
-
-
 # This function finds the process ID of the application
 def appget_pid_powerpoint():
     pid = os.popen("pgrep 'Microsoft PowerPoint'").read()
     return pid
 
 
-# This function finds the process ID of the application and tells you if its running or not with PID Number
-if appget_pid_powerpoint() != "":
-    print("PowerPoint is running", appget_pid_powerpoint())
-    update_presence_powerpoint()
-else:
-    print("PowerPoint is not running")
-
-while True:
-    appget_pid_powerpoint()
-
-    time.sleep(1)  # Can only update rich presence every 1 second

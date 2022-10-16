@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="43edcae3-c44a-4ba9-acc7-677b64e2094d" name="Changes" comment="" />
+    <list default="true" id="43edcae3-c44a-4ba9-acc7-677b64e2094d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel_RPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Excel_RPC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_RPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_RPC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outlook_RPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Outlook_RPC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PowerPoint_RPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/PowerPoint_RPC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teams_RPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teams_RPC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Word_RPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word_RPC.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +36,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/oryon/Documents/GitHub/MSOffice-RPC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -36,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665901163088</updated>
       <workItem from="1665901164324" duration="1411000" />
+      <workItem from="1665902850704" duration="720000" />
     </task>
     <servers />
   </component>
@@ -54,6 +71,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MSOffice_RPC$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1665902542974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSOffice_RPC$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1665903506670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

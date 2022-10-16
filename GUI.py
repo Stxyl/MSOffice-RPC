@@ -1,5 +1,6 @@
 # tkinter import
 from tkinter import *
+import time
 
 # Office Applications python script import
 from Word_RPC import *
