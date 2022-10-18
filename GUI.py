@@ -10,6 +10,24 @@ from Outlook_RPC import *
 from OneNote_RPC import *
 from Teams_RPC import *
 
+# integer checking function
+def intcheck(question, low, high):
+    valid = False
+    while not valid:
+        error = "Whoops please enter a number between {}" \
+                "and {}".format(low, high)
+
+        try:
+            response = int(input("Select your options above ^ | ".format(low, high)))
+
+            if low <= response <= high:
+                return response
+            else:
+                print(error)
+                print()
+
+        except ValueError:
+            print(error)
 
 # login system
 def signup():
@@ -200,7 +218,7 @@ while 1:
     print("1.Signup")
     print("2.Login")
     print("3.Exit")
-    ch = int(input("Enter your choice: "))
+    ch = intcheck("Enter your choice: ", 1, 3)
     if ch == 1:
         signup()
     elif ch == 2:
