@@ -1,6 +1,5 @@
 import os
 import pypresence
-import time
 
 
 # This function is used to connect to Discord
@@ -31,6 +30,3 @@ def appget_outlook():
 def appget_pid_outlook():
     pid = os.popen("pgrep 'Microsoft Outlook'").read()
     return pid
-
-
-

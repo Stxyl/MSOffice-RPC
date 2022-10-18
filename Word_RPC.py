@@ -30,5 +30,3 @@ def appget_word():
 def appget_pid_word():
     pid = os.popen("pgrep 'Microsoft Word'").read()
     return pid
-
-

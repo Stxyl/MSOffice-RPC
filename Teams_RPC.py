@@ -1,6 +1,5 @@
 import os
 import pypresence
-import time
 
 
 # This function is used to connect to Discord
@@ -31,5 +30,3 @@ def appget_teams():
 def appget_pid_teams():
     pid = os.popen("pgrep 'Teams'").read()
     return pid
-
-

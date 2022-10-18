@@ -1,6 +1,5 @@
 import os
 import pypresence
-import time
 
 
 # This function is used to connect to Discord
@@ -32,5 +31,3 @@ def appget_powerpoint():
 def appget_pid_powerpoint():
     pid = os.popen("pgrep 'Microsoft PowerPoint'").read()
     return pid
-
-

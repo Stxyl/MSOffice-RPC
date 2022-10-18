@@ -1,6 +1,5 @@
 import os
 import pypresence
-import time
 
 
 # This function is used to connect to Discord
@@ -32,5 +31,3 @@ def appget_excel():
 def appget_pid_excel():
     pid = os.popen("pgrep 'Microsoft Excel'").read()
     return pid
-
-
